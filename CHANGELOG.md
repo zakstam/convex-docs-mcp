@@ -1,6 +1,18 @@
 # [1.1.0](https://github.com/zakstam/convex-docs-mcp/compare/v1.0.0...v1.1.0) (2026-01-19)
 
 
+### Bug Fixes
+
+* fetch tags in release workflow ([00c9bb0](https://github.com/zakstam/convex-docs-mcp/commit/00c9bb03baa2b43ddf83755bcf9c334d1e318986))
+
+
+### Features
+
+* add dynamic sitemap, pre-fetched titles, and fuzzy search ([6d2b052](https://github.com/zakstam/convex-docs-mcp/commit/6d2b05289df06d19bc71933f33aef6c9fd71d069))
+
+# [1.1.0](https://github.com/zakstam/convex-docs-mcp/compare/v1.0.0...v1.1.0) (2026-01-19)
+
+
 ### Features
 
 * add dynamic sitemap, pre-fetched titles, and fuzzy search ([6d2b052](https://github.com/zakstam/convex-docs-mcp/commit/6d2b05289df06d19bc71933f33aef6c9fd71d069))
