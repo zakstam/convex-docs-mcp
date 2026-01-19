@@ -1,12 +1,12 @@
 {
-  "name": "@convex-dev/convex-docs-mcp",
+  "name": "@zakstam/convex-docs-mcp",
   "version": "0.0.0-semantically-released",
   "description": "MCP server providing access to Convex documentation",
   "main": "build/index.js",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/o-zakstam/convex-documentation-mcp.git"
+    "url": "https://github.com/zakstam/convex-docs-mcp.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
