@@ -1,8 +1,8 @@
 import { z } from "zod";
 import type { DocTopic } from "../types.js";
 import {
-  getAllTopics,
-  filterTopicsBySection,
+  getAllTopicsAsync,
+  filterTopicsBySectionAsync,
   DOCS_BASE_URL,
 } from "../utils/sitemap.js";
 
@@ -47,9 +47,9 @@ export async function listTopics(
   let topics: DocTopic[];
 
   if (input.section) {
-    topics = filterTopicsBySection(input.section);
+    topics = await filterTopicsBySectionAsync(input.section);
   } else {
-    topics = getAllTopics();
+    topics = await getAllTopicsAsync();
   }
 
   const formattedTopics = topics.map(formatTopic);

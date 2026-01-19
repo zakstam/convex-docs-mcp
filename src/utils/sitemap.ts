@@ -1,6 +1,13 @@
 import type { DocTopic } from "../types.js";
+import {
+  getDynamicTopics,
+  getFlatDynamicTopics,
+  searchDynamicTopics,
+  filterDynamicTopicsBySection,
+  DOCS_BASE_URL as DYNAMIC_BASE_URL,
+} from "./dynamicSitemap.js";
 
-export const DOCS_BASE_URL = "https://docs.convex.dev";
+export const DOCS_BASE_URL = DYNAMIC_BASE_URL;
 
 export const docsSitemap: DocTopic[] = [
   {
@@ -106,6 +113,31 @@ export const docsSitemap: DocTopic[] = [
     description: "AI and LLM integration",
     children: [
       { title: "Overview", path: "ai", description: "AI features in Convex" },
+      { title: "Using Cursor", path: "ai/using-cursor", description: "Convex AI rules for Cursor IDE" },
+      { title: "Using Windsurf", path: "ai/using-windsurf", description: "Convex AI rules for Windsurf IDE" },
+      { title: "Using GitHub Copilot", path: "ai/using-github-copilot", description: "Convex instructions for GitHub Copilot" },
+      { title: "Convex MCP Server", path: "ai/convex-mcp-server", description: "MCP server for AI coding agents" },
+    ],
+  },
+  {
+    title: "AI Agents",
+    path: "agents",
+    description: "Building AI agents with Convex",
+    children: [
+      { title: "Overview", path: "agents", description: "Building AI agents with Convex" },
+      { title: "Getting Started", path: "agents/getting-started", description: "Build your first AI agent" },
+      { title: "Tools", path: "agents/tools", description: "Agent tools and function calling" },
+      { title: "Threads", path: "agents/threads", description: "Managing conversation threads" },
+      { title: "Messages", path: "agents/messages", description: "Working with messages in threads" },
+      { title: "Human Agents", path: "agents/human-agents", description: "Human-in-the-loop agents" },
+      { title: "Context", path: "agents/context", description: "Conversation context management" },
+      { title: "Workflows", path: "agents/workflows", description: "Multi-step agent workflows" },
+      { title: "RAG", path: "agents/rag", description: "Retrieval-augmented generation" },
+      { title: "Files", path: "agents/files", description: "File handling in agent conversations" },
+      { title: "Debugging", path: "agents/debugging", description: "Debugging AI agents" },
+      { title: "Playground", path: "agents/playground", description: "Agent playground for testing" },
+      { title: "Usage Tracking", path: "agents/usage-tracking", description: "Track agent usage and billing" },
+      { title: "Rate Limiting", path: "agents/rate-limiting", description: "Rate limiting agent interactions" },
     ],
   },
   {
@@ -139,6 +171,7 @@ export const docsSitemap: DocTopic[] = [
     description: "Convex CLI reference",
     children: [
       { title: "Overview", path: "cli", description: "Convex CLI introduction" },
+      { title: "Agent Mode", path: "cli/agent-mode", description: "CLI agent mode for background AI agents" },
     ],
   },
   {
@@ -210,4 +243,56 @@ export function searchTopics(query: string): DocTopic[] {
       topic.path.toLowerCase().includes(normalizedQuery) ||
       (topic.description && topic.description.toLowerCase().includes(normalizedQuery))
   );
+}
+
+// =============================================================================
+// Async versions with dynamic sitemap (with static fallback)
+// =============================================================================
+
+/**
+ * Get all topics - tries dynamic sitemap first, falls back to static
+ */
+export async function getAllTopicsAsync(): Promise<DocTopic[]> {
+  try {
+    return await getDynamicTopics();
+  } catch (error) {
+    console.error("Failed to fetch dynamic sitemap, using static fallback:", error);
+    return docsSitemap;
+  }
+}
+
+/**
+ * Get flattened topics - tries dynamic sitemap first, falls back to static
+ */
+export async function flattenTopicsAsync(): Promise<DocTopic[]> {
+  try {
+    return await getFlatDynamicTopics();
+  } catch (error) {
+    console.error("Failed to fetch dynamic sitemap, using static fallback:", error);
+    return flattenTopics();
+  }
+}
+
+/**
+ * Search topics - tries dynamic sitemap first, falls back to static
+ */
+export async function searchTopicsAsync(query: string): Promise<DocTopic[]> {
+  try {
+    return await searchDynamicTopics(query);
+  } catch (error) {
+    console.error("Failed to search dynamic sitemap, using static fallback:", error);
+    return searchTopics(query);
+  }
+}
+
+/**
+ * Filter topics by section - tries dynamic sitemap first, falls back to static
+ */
+export async function filterTopicsBySectionAsync(section: string): Promise<DocTopic[]> {
+  try {
+    return await filterDynamicTopicsBySection(section);
+  } catch (error) {
+    console.error("Failed to filter dynamic sitemap, using static fallback:", error);
+    return filterTopicsBySection(section);
+  }
 }

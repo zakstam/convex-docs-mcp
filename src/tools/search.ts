@@ -1,6 +1,6 @@
 import { z } from "zod";
 import type { SearchResult } from "../types.js";
-import { searchTopics, DOCS_BASE_URL } from "../utils/sitemap.js";
+import { searchTopicsAsync, DOCS_BASE_URL } from "../utils/sitemap.js";
 
 export const searchSchema = z.object({
   query: z.string().describe("Search query to find relevant Convex documentation"),
@@ -14,8 +14,8 @@ export async function search(input: SearchInput): Promise<{
 }> {
   const { query } = input;
 
-  // Search through the local topic index
-  const matchingTopics = searchTopics(query);
+  // Search through the dynamic topic index (with static fallback)
+  const matchingTopics = await searchTopicsAsync(query);
 
   // Score and format results
   const results: SearchResult[] = matchingTopics.map((topic) => {

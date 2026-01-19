@@ -1,0 +1,1199 @@
+{
+  "generatedAt": "2026-01-19T15:50:01.672Z",
+  "baseUrl": "https://docs.convex.dev",
+  "totalPages": 298,
+  "titles": [
+    {
+      "path": "agents",
+      "title": "AI Agents"
+    },
+    {
+      "path": "agents/agent-usage",
+      "title": "Agent Definition and Usage"
+    },
+    {
+      "path": "agents/context",
+      "title": "LLM Context"
+    },
+    {
+      "path": "agents/debugging",
+      "title": "Debugging"
+    },
+    {
+      "path": "agents/files",
+      "title": "Files and Images in Agent messages"
+    },
+    {
+      "path": "agents/getting-started",
+      "title": "Getting Started with Agent"
+    },
+    {
+      "path": "agents/human-agents",
+      "title": "Human Agents"
+    },
+    {
+      "path": "agents/messages",
+      "title": "Messages"
+    },
+    {
+      "path": "agents/playground",
+      "title": "Playground"
+    },
+    {
+      "path": "agents/rag",
+      "title": "RAG (Retrieval-Augmented Generation) with the Agent component"
+    },
+    {
+      "path": "agents/rate-limiting",
+      "title": "Rate Limiting"
+    },
+    {
+      "path": "agents/streaming",
+      "title": "Streaming"
+    },
+    {
+      "path": "agents/threads",
+      "title": "Threads"
+    },
+    {
+      "path": "agents/tools",
+      "title": "Tools"
+    },
+    {
+      "path": "agents/usage-tracking",
+      "title": "Usage Tracking"
+    },
+    {
+      "path": "agents/workflows",
+      "title": "Workflows"
+    },
+    {
+      "path": "ai",
+      "title": "AI Code Generation"
+    },
+    {
+      "path": "ai/convex-mcp-server",
+      "title": "Convex MCP Server"
+    },
+    {
+      "path": "ai/using-cursor",
+      "title": "Using Cursor with Convex"
+    },
+    {
+      "path": "ai/using-github-copilot",
+      "title": "Using GitHub Copilot with Convex"
+    },
+    {
+      "path": "ai/using-windsurf",
+      "title": "Using Windsurf with Convex"
+    },
+    {
+      "path": "api",
+      "title": "convex"
+    },
+    {
+      "path": "api/classes/browser.BaseConvexClient",
+      "title": "Class: BaseConvexClient"
+    },
+    {
+      "path": "api/classes/browser.ConvexClient",
+      "title": "Class: ConvexClient"
+    },
+    {
+      "path": "api/classes/browser.ConvexHttpClient",
+      "title": "Class: ConvexHttpClient"
+    },
+    {
+      "path": "api/classes/react.ConvexReactClient",
+      "title": "Class: ConvexReactClient"
+    },
+    {
+      "path": "api/classes/server.Crons",
+      "title": "Class: Crons"
+    },
+    {
+      "path": "api/classes/server.Expression",
+      "title": "Class: Expression&lt;T&gt;"
+    },
+    {
+      "path": "api/classes/server.FilterExpression",
+      "title": "Class: FilterExpression&lt;T&gt;"
+    },
+    {
+      "path": "api/classes/server.HttpRouter",
+      "title": "Class: HttpRouter"
+    },
+    {
+      "path": "api/classes/server.IndexRange",
+      "title": "Class: IndexRange"
+    },
+    {
+      "path": "api/classes/server.SchemaDefinition",
+      "title": "Class: SchemaDefinition&lt;Schema, StrictTableTypes&gt;"
+    },
+    {
+      "path": "api/classes/server.SearchFilter",
+      "title": "Class: SearchFilter"
+    },
+    {
+      "path": "api/classes/server.TableDefinition",
+      "title": "Class: TableDefinition&lt;DocumentType, Indexes, SearchIndexes, VectorIndexes&gt;"
+    },
+    {
+      "path": "api/classes/values.ConvexError",
+      "title": "Class: ConvexError&lt;TData&gt;"
+    },
+    {
+      "path": "api/classes/values.VAny",
+      "title": "Class: VAny&lt;Type, IsOptional, FieldPaths&gt;"
+    },
+    {
+      "path": "api/classes/values.VArray",
+      "title": "Class: VArray&lt;Type, Element, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VBoolean",
+      "title": "Class: VBoolean&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VBytes",
+      "title": "Class: VBytes&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VFloat64",
+      "title": "Class: VFloat64&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VId",
+      "title": "Class: VId&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VInt64",
+      "title": "Class: VInt64&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VLiteral",
+      "title": "Class: VLiteral&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VNull",
+      "title": "Class: VNull&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VObject",
+      "title": "Class: VObject&lt;Type, Fields, IsOptional, FieldPaths&gt;"
+    },
+    {
+      "path": "api/classes/values.VRecord",
+      "title": "Class: VRecord&lt;Type, Key, Value, IsOptional, FieldPaths&gt;"
+    },
+    {
+      "path": "api/classes/values.VString",
+      "title": "Class: VString&lt;Type, IsOptional&gt;"
+    },
+    {
+      "path": "api/classes/values.VUnion",
+      "title": "Class: VUnion&lt;Type, T, IsOptional, FieldPaths&gt;"
+    },
+    {
+      "path": "api/interfaces/browser.BaseConvexClientOptions",
+      "title": "Interface: BaseConvexClientOptions"
+    },
+    {
+      "path": "api/interfaces/browser.MutationOptions",
+      "title": "Interface: MutationOptions"
+    },
+    {
+      "path": "api/interfaces/browser.OptimisticLocalStore",
+      "title": "Interface: OptimisticLocalStore"
+    },
+    {
+      "path": "api/interfaces/browser.SubscribeOptions",
+      "title": "Interface: SubscribeOptions"
+    },
+    {
+      "path": "api/interfaces/react.ConvexReactClientOptions",
+      "title": "Interface: ConvexReactClientOptions"
+    },
+    {
+      "path": "api/interfaces/react.MutationOptions",
+      "title": "Interface: MutationOptions&lt;Args&gt;"
+    },
+    {
+      "path": "api/interfaces/react.ReactAction",
+      "title": "Interface: ReactAction&lt;Action&gt;"
+    },
+    {
+      "path": "api/interfaces/react.ReactMutation",
+      "title": "Interface: ReactMutation&lt;Mutation&gt;"
+    },
+    {
+      "path": "api/interfaces/react.Watch",
+      "title": "Interface: Watch&lt;T&gt;"
+    },
+    {
+      "path": "api/interfaces/react.WatchQueryOptions",
+      "title": "Interface: WatchQueryOptions"
+    },
+    {
+      "path": "api/interfaces/server.Auth",
+      "title": "Interface: Auth"
+    },
+    {
+      "path": "api/interfaces/server.BaseTableReader",
+      "title": "Interface: BaseTableReader&lt;DataModel, TableName&gt;"
+    },
+    {
+      "path": "api/interfaces/server.BaseTableWriter",
+      "title": "Interface: BaseTableWriter&lt;DataModel, TableName&gt;"
+    },
+    {
+      "path": "api/interfaces/server.CronJob",
+      "title": "Interface: CronJob"
+    },
+    {
+      "path": "api/interfaces/server.DefineSchemaOptions",
+      "title": "Interface: DefineSchemaOptions&lt;StrictTableNameTypes&gt;"
+    },
+    {
+      "path": "api/interfaces/server.FilterBuilder",
+      "title": "Interface: FilterBuilder&lt;TableInfo&gt;"
+    },
+    {
+      "path": "api/interfaces/server.GenericActionCtx",
+      "title": "Interface: GenericActionCtx&lt;DataModel&gt;"
+    },
+    {
+      "path": "api/interfaces/server.GenericDatabaseReader",
+      "title": "Interface: GenericDatabaseReader&lt;DataModel&gt;"
+    },
+    {
+      "path": "api/interfaces/server.GenericDatabaseReaderWithTable",
+      "title": "Interface: GenericDatabaseReaderWithTable&lt;DataModel&gt;"
+    },
+    {
+      "path": "api/interfaces/server.GenericDatabaseWriter",
+      "title": "Interface: GenericDatabaseWriter&lt;DataModel&gt;"
+    },
+    {
+      "path": "api/interfaces/server.GenericDatabaseWriterWithTable",
+      "title": "Interface: GenericDatabaseWriterWithTable&lt;DataModel&gt;"
+    },
+    {
+      "path": "api/interfaces/server.GenericMutationCtx",
+      "title": "Interface: GenericMutationCtx&lt;DataModel&gt;"
+    },
+    {
+      "path": "api/interfaces/server.GenericQueryCtx",
+      "title": "Interface: GenericQueryCtx&lt;DataModel&gt;"
+    },
+    {
+      "path": "api/interfaces/server.IndexRangeBuilder",
+      "title": "Interface: IndexRangeBuilder&lt;Document, IndexFields, FieldNum&gt;"
+    },
+    {
+      "path": "api/interfaces/server.OrderedQuery",
+      "title": "Interface: OrderedQuery&lt;TableInfo&gt;"
+    },
+    {
+      "path": "api/interfaces/server.PaginationOptions",
+      "title": "Interface: PaginationOptions"
+    },
+    {
+      "path": "api/interfaces/server.PaginationResult",
+      "title": "Interface: PaginationResult&lt;T&gt;"
+    },
+    {
+      "path": "api/interfaces/server.Query",
+      "title": "Interface: Query&lt;TableInfo&gt;"
+    },
+    {
+      "path": "api/interfaces/server.QueryInitializer",
+      "title": "Interface: QueryInitializer&lt;TableInfo&gt;"
+    },
+    {
+      "path": "api/interfaces/server.Scheduler",
+      "title": "Interface: Scheduler"
+    },
+    {
+      "path": "api/interfaces/server.SearchFilterBuilder",
+      "title": "Interface: SearchFilterBuilder&lt;Document, SearchIndexConfig&gt;"
+    },
+    {
+      "path": "api/interfaces/server.SearchFilterFinalizer",
+      "title": "Interface: SearchFilterFinalizer&lt;Document, SearchIndexConfig&gt;"
+    },
+    {
+      "path": "api/interfaces/server.SearchIndexConfig",
+      "title": "Interface: SearchIndexConfig&lt;SearchField, FilterFields&gt;"
+    },
+    {
+      "path": "api/interfaces/server.StorageActionWriter",
+      "title": "Interface: StorageActionWriter"
+    },
+    {
+      "path": "api/interfaces/server.StorageReader",
+      "title": "Interface: StorageReader"
+    },
+    {
+      "path": "api/interfaces/server.StorageWriter",
+      "title": "Interface: StorageWriter"
+    },
+    {
+      "path": "api/interfaces/server.SystemDataModel",
+      "title": "Interface: SystemDataModel"
+    },
+    {
+      "path": "api/interfaces/server.UserIdentity",
+      "title": "Interface: UserIdentity"
+    },
+    {
+      "path": "api/interfaces/server.ValidatedFunction",
+      "title": "Interface: ValidatedFunction&lt;Ctx, ArgsValidator, Returns&gt;"
+    },
+    {
+      "path": "api/interfaces/server.VectorFilterBuilder",
+      "title": "Interface: VectorFilterBuilder&lt;Document, VectorIndexConfig&gt;"
+    },
+    {
+      "path": "api/interfaces/server.VectorIndexConfig",
+      "title": "Interface: VectorIndexConfig&lt;VectorField, FilterFields&gt;"
+    },
+    {
+      "path": "api/interfaces/server.VectorSearchQuery",
+      "title": "Interface: VectorSearchQuery&lt;TableInfo, IndexName&gt;"
+    },
+    {
+      "path": "api/modules",
+      "title": "convex"
+    },
+    {
+      "path": "api/modules/browser",
+      "title": "Module: browser"
+    },
+    {
+      "path": "api/modules/nextjs",
+      "title": "Module: nextjs"
+    },
+    {
+      "path": "api/modules/react",
+      "title": "Module: react"
+    },
+    {
+      "path": "api/modules/react_auth0",
+      "title": "Module: react-auth0"
+    },
+    {
+      "path": "api/modules/react_clerk",
+      "title": "Module: react-clerk"
+    },
+    {
+      "path": "api/modules/server",
+      "title": "Module: server"
+    },
+    {
+      "path": "api/modules/values",
+      "title": "Module: values"
+    },
+    {
+      "path": "api/namespaces/values.Base64",
+      "title": "Namespace: Base64"
+    },
+    {
+      "path": "auth",
+      "title": "Authentication"
+    },
+    {
+      "path": "auth/advanced/custom-auth",
+      "title": "Custom OIDC Provider"
+    },
+    {
+      "path": "auth/advanced/custom-jwt",
+      "title": "Custom JWT Provider"
+    },
+    {
+      "path": "auth/auth0",
+      "title": "Convex &amp; Auth0"
+    },
+    {
+      "path": "auth/authkit",
+      "title": "Convex &amp; WorkOS AuthKit"
+    },
+    {
+      "path": "auth/authkit/auto-provision",
+      "title": "Automatic AuthKit Configuration"
+    },
+    {
+      "path": "auth/authkit/troubleshooting",
+      "title": "AuthKit Troubleshooting"
+    },
+    {
+      "path": "auth/clerk",
+      "title": "Convex &amp; Clerk"
+    },
+    {
+      "path": "auth/convex-auth",
+      "title": "Convex Auth"
+    },
+    {
+      "path": "auth/database-auth",
+      "title": "Storing Users in the Convex Database"
+    },
+    {
+      "path": "auth/debug",
+      "title": "Debugging Authentication"
+    },
+    {
+      "path": "auth/functions-auth",
+      "title": "Auth in Functions"
+    },
+    {
+      "path": "chef",
+      "title": "Chef"
+    },
+    {
+      "path": "cli",
+      "title": "CLI"
+    },
+    {
+      "path": "cli/agent-mode",
+      "title": "Agent Mode"
+    },
+    {
+      "path": "cli/deploy-key-types",
+      "title": "Deploy keys"
+    },
+    {
+      "path": "cli/local-deployments",
+      "title": "Local Deployments for Development"
+    },
+    {
+      "path": "client/android",
+      "title": "Android Kotlin"
+    },
+    {
+      "path": "client/android/data-types",
+      "title": "Kotlin and Convex type conversion"
+    },
+    {
+      "path": "client/javascript",
+      "title": "JavaScript"
+    },
+    {
+      "path": "client/javascript/bun",
+      "title": "Bun"
+    },
+    {
+      "path": "client/javascript/node",
+      "title": "Node.js"
+    },
+    {
+      "path": "client/javascript/script-tag",
+      "title": "Script Tag"
+    },
+    {
+      "path": "client/nextjs/app-router",
+      "title": "Next.js"
+    },
+    {
+      "path": "client/nextjs/app-router/server-rendering",
+      "title": "Next.js Server Rendering"
+    },
+    {
+      "path": "client/nextjs/pages-router",
+      "title": "Next.js Pages Router"
+    },
+    {
+      "path": "client/nextjs/pages-router/quickstart",
+      "title": "Next.js Pages Quickstart"
+    },
+    {
+      "path": "client/open-api",
+      "title": "OpenAPI &amp; Other Languages"
+    },
+    {
+      "path": "client/python",
+      "title": "Python"
+    },
+    {
+      "path": "client/react",
+      "title": "Convex React"
+    },
+    {
+      "path": "client/react-native",
+      "title": "Convex React Native"
+    },
+    {
+      "path": "client/react/deployment-urls",
+      "title": "Configuring Deployment URL"
+    },
+    {
+      "path": "client/react/optimistic-updates",
+      "title": "Optimistic Updates"
+    },
+    {
+      "path": "client/rust",
+      "title": "Rust"
+    },
+    {
+      "path": "client/svelte",
+      "title": "Svelte"
+    },
+    {
+      "path": "client/swift",
+      "title": "iOS &amp; macOS Swift"
+    },
+    {
+      "path": "client/swift/data-types",
+      "title": "Swift and Convex type conversion"
+    },
+    {
+      "path": "client/tanstack/tanstack-query",
+      "title": "Convex with TanStack Query"
+    },
+    {
+      "path": "client/tanstack/tanstack-start",
+      "title": "TanStack Start"
+    },
+    {
+      "path": "client/tanstack/tanstack-start/clerk",
+      "title": "TanStack Start with Clerk"
+    },
+    {
+      "path": "client/vue",
+      "title": "Vue"
+    },
+    {
+      "path": "client/vue/nuxt",
+      "title": "Nuxt"
+    },
+    {
+      "path": "components",
+      "title": "Components"
+    },
+    {
+      "path": "components/authoring",
+      "title": "Authoring Components"
+    },
+    {
+      "path": "components/understanding",
+      "title": "Understanding Components"
+    },
+    {
+      "path": "components/using",
+      "title": "Using Components"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "path": "dashboard/deployments",
+      "title": "Deployments"
+    },
+    {
+      "path": "dashboard/deployments/data",
+      "title": "Data"
+    },
+    {
+      "path": "dashboard/deployments/deployment-settings",
+      "title": "Settings"
+    },
+    {
+      "path": "dashboard/deployments/file-storage",
+      "title": "File Storage"
+    },
+    {
+      "path": "dashboard/deployments/functions",
+      "title": "Functions"
+    },
+    {
+      "path": "dashboard/deployments/health",
+      "title": "Health"
+    },
+    {
+      "path": "dashboard/deployments/history",
+      "title": "History"
+    },
+    {
+      "path": "dashboard/deployments/logs",
+      "title": "Logs"
+    },
+    {
+      "path": "dashboard/deployments/schedules",
+      "title": "Schedules"
+    },
+    {
+      "path": "dashboard/projects",
+      "title": "Projects"
+    },
+    {
+      "path": "dashboard/teams",
+      "title": "Teams"
+    },
+    {
+      "path": "database",
+      "title": "Database"
+    },
+    {
+      "path": "database/advanced/occ",
+      "title": "OCC and Atomicity"
+    },
+    {
+      "path": "database/advanced/schema-philosophy",
+      "title": "Schema Philosophy"
+    },
+    {
+      "path": "database/advanced/system-tables",
+      "title": "System Tables"
+    },
+    {
+      "path": "database/backup-restore",
+      "title": "Backup &amp; Restore"
+    },
+    {
+      "path": "database/document-ids",
+      "title": "Document IDs"
+    },
+    {
+      "path": "database/import-export",
+      "title": "Data Import &amp; Export"
+    },
+    {
+      "path": "database/import-export/export",
+      "title": "Data Export"
+    },
+    {
+      "path": "database/import-export/import",
+      "title": "Data Import"
+    },
+    {
+      "path": "database/pagination",
+      "title": "Paginated Queries"
+    },
+    {
+      "path": "database/reading-data",
+      "title": "Reading Data"
+    },
+    {
+      "path": "database/reading-data/filters",
+      "title": "Filters"
+    },
+    {
+      "path": "database/reading-data/indexes",
+      "title": "Indexes"
+    },
+    {
+      "path": "database/reading-data/indexes/indexes-and-query-perf",
+      "title": "Introduction to Indexes and Query Performance"
+    },
+    {
+      "path": "database/schemas",
+      "title": "Schemas"
+    },
+    {
+      "path": "database/types",
+      "title": "Data Types"
+    },
+    {
+      "path": "database/writing-data",
+      "title": "Writing Data"
+    },
+    {
+      "path": "deployment-api",
+      "title": "Deployment API"
+    },
+    {
+      "path": "deployment-api/convex-deployment-api",
+      "title": "Convex Deployment API"
+    },
+    {
+      "path": "deployment-api/create-log-stream",
+      "title": "Create log stream"
+    },
+    {
+      "path": "deployment-api/delete-log-stream",
+      "title": "Delete log stream"
+    },
+    {
+      "path": "deployment-api/get-canonical-urls",
+      "title": "Get canonical URLs"
+    },
+    {
+      "path": "deployment-api/get-log-stream",
+      "title": "Get log stream"
+    },
+    {
+      "path": "deployment-api/list-environment-variables",
+      "title": "List environment variables"
+    },
+    {
+      "path": "deployment-api/list-log-streams",
+      "title": "List log streams"
+    },
+    {
+      "path": "deployment-api/pause-deployment",
+      "title": "Pause deployment"
+    },
+    {
+      "path": "deployment-api/rotate-webhook-secret",
+      "title": "Rotate webhook log stream secret"
+    },
+    {
+      "path": "deployment-api/unpause-deployment",
+      "title": "Unpause deployment"
+    },
+    {
+      "path": "deployment-api/update-canonical-url",
+      "title": "Update canonical URL"
+    },
+    {
+      "path": "deployment-api/update-environment-variables",
+      "title": "Update environment variables"
+    },
+    {
+      "path": "deployment-api/update-log-stream",
+      "title": "Update log stream"
+    },
+    {
+      "path": "deployment-platform-api",
+      "title": "Deployment Platform API"
+    },
+    {
+      "path": "error",
+      "title": "Errors and Warnings"
+    },
+    {
+      "path": "eslint",
+      "title": "ESLint rules"
+    },
+    {
+      "path": "file-storage",
+      "title": "File Storage"
+    },
+    {
+      "path": "file-storage/delete-files",
+      "title": "Deleting Files"
+    },
+    {
+      "path": "file-storage/file-metadata",
+      "title": "Accessing File Metadata"
+    },
+    {
+      "path": "file-storage/serve-files",
+      "title": "Serving Files"
+    },
+    {
+      "path": "file-storage/store-files",
+      "title": "Storing Generated Files"
+    },
+    {
+      "path": "file-storage/upload-files",
+      "title": "Uploading and Storing Files"
+    },
+    {
+      "path": "functions",
+      "title": "Functions"
+    },
+    {
+      "path": "functions/actions",
+      "title": "Actions"
+    },
+    {
+      "path": "functions/bundling",
+      "title": "Bundling"
+    },
+    {
+      "path": "functions/debugging",
+      "title": "Debugging"
+    },
+    {
+      "path": "functions/error-handling",
+      "title": "Error Handling"
+    },
+    {
+      "path": "functions/error-handling/application-errors",
+      "title": "Application Errors"
+    },
+    {
+      "path": "functions/http-actions",
+      "title": "HTTP Actions"
+    },
+    {
+      "path": "functions/internal-functions",
+      "title": "Internal Functions"
+    },
+    {
+      "path": "functions/mutation-functions",
+      "title": "Mutations"
+    },
+    {
+      "path": "functions/query-functions",
+      "title": "Queries"
+    },
+    {
+      "path": "functions/runtimes",
+      "title": "Runtimes"
+    },
+    {
+      "path": "functions/validation",
+      "title": "Argument and Return Value Validation"
+    },
+    {
+      "path": "generated-api",
+      "title": "Generated Code"
+    },
+    {
+      "path": "generated-api/api",
+      "title": "api.js"
+    },
+    {
+      "path": "generated-api/data-model",
+      "title": "dataModel.d.ts"
+    },
+    {
+      "path": "generated-api/server",
+      "title": "server.js"
+    },
+    {
+      "path": "home",
+      "title": "Convex Docs"
+    },
+    {
+      "path": "http-api",
+      "title": "Convex HTTP API"
+    },
+    {
+      "path": "index",
+      "title": "Convex Developer Hub"
+    },
+    {
+      "path": "management-api",
+      "title": "Management API"
+    },
+    {
+      "path": "management-api/convex-management-api",
+      "title": "Convex Management API"
+    },
+    {
+      "path": "management-api/create-custom-domain",
+      "title": "Create custom domain"
+    },
+    {
+      "path": "management-api/create-deploy-key",
+      "title": "Create deploy key"
+    },
+    {
+      "path": "management-api/create-project",
+      "title": "Create project"
+    },
+    {
+      "path": "management-api/delete-custom-domain",
+      "title": "Delete custom domain"
+    },
+    {
+      "path": "management-api/delete-deployment",
+      "title": "Delete deployment"
+    },
+    {
+      "path": "management-api/delete-project",
+      "title": "Delete project"
+    },
+    {
+      "path": "management-api/get-token-details",
+      "title": "Get token details"
+    },
+    {
+      "path": "management-api/list-custom-domains",
+      "title": "List custom domains"
+    },
+    {
+      "path": "management-api/list-deployments",
+      "title": "List deployments"
+    },
+    {
+      "path": "management-api/list-projects",
+      "title": "List projects"
+    },
+    {
+      "path": "platform-apis",
+      "title": "Platform APIs"
+    },
+    {
+      "path": "platform-apis/embedded-dashboard",
+      "title": "Embedding the dashboard"
+    },
+    {
+      "path": "platform-apis/oauth-applications",
+      "title": "OAuth Applications"
+    },
+    {
+      "path": "production",
+      "title": "Deploying Your App to Production"
+    },
+    {
+      "path": "production/contact",
+      "title": "Contact Us"
+    },
+    {
+      "path": "production/environment-variables",
+      "title": "Environment Variables"
+    },
+    {
+      "path": "production/hosting",
+      "title": "Hosting and Deployment"
+    },
+    {
+      "path": "production/hosting/custom",
+      "title": "Custom Domains &amp; Hosting"
+    },
+    {
+      "path": "production/hosting/netlify",
+      "title": "Using Convex with Netlify"
+    },
+    {
+      "path": "production/hosting/preview-deployments",
+      "title": "Preview Deployments"
+    },
+    {
+      "path": "production/hosting/vercel",
+      "title": "Using Convex with Vercel"
+    },
+    {
+      "path": "production/integrations",
+      "title": "Integrations"
+    },
+    {
+      "path": "production/integrations/exception-reporting",
+      "title": "Exception Reporting"
+    },
+    {
+      "path": "production/integrations/log-streams",
+      "title": "Log Streams"
+    },
+    {
+      "path": "production/integrations/log-streams/legacy-event-schema",
+      "title": "(Legacy) Event schema"
+    },
+    {
+      "path": "production/integrations/streaming-import-export",
+      "title": "Streaming Data in and out of Convex"
+    },
+    {
+      "path": "production/multiple-repos",
+      "title": "Multiple Repositories"
+    },
+    {
+      "path": "production/pause-deployment",
+      "title": "Pausing a Deployment"
+    },
+    {
+      "path": "production/project-configuration",
+      "title": "Project Configuration"
+    },
+    {
+      "path": "production/state",
+      "title": "Status and Guarantees"
+    },
+    {
+      "path": "production/state/limits",
+      "title": "Limits"
+    },
+    {
+      "path": "public-deployment-api/convex-public-http-routes",
+      "title": "Convex Public HTTP routes"
+    },
+    {
+      "path": "public-deployment-api/public-action-post",
+      "title": "Execute action"
+    },
+    {
+      "path": "public-deployment-api/public-function-post",
+      "title": "Execute any function"
+    },
+    {
+      "path": "public-deployment-api/public-function-post-with-path",
+      "title": "Execute function by URL path"
+    },
+    {
+      "path": "public-deployment-api/public-get-query-ts",
+      "title": "Get latest timestamp"
+    },
+    {
+      "path": "public-deployment-api/public-mutation-post",
+      "title": "Execute mutation"
+    },
+    {
+      "path": "public-deployment-api/public-query-at-ts-post",
+      "title": "Execute query at timestamp"
+    },
+    {
+      "path": "public-deployment-api/public-query-batch-post",
+      "title": "Execute query batch"
+    },
+    {
+      "path": "public-deployment-api/public-query-get",
+      "title": "Execute query (GET)"
+    },
+    {
+      "path": "public-deployment-api/public-query-post",
+      "title": "Execute query (POST)"
+    },
+    {
+      "path": "quickstart/android",
+      "title": "Android Kotlin Quickstart"
+    },
+    {
+      "path": "quickstart/bun",
+      "title": "Bun Quickstart"
+    },
+    {
+      "path": "quickstart/nextjs",
+      "title": "Next.js Quickstart"
+    },
+    {
+      "path": "quickstart/nodejs",
+      "title": "Node.js Quickstart"
+    },
+    {
+      "path": "quickstart/nuxt",
+      "title": "Nuxt Quickstart"
+    },
+    {
+      "path": "quickstart/python",
+      "title": "Python Quickstart"
+    },
+    {
+      "path": "quickstart/react",
+      "title": "React Quickstart"
+    },
+    {
+      "path": "quickstart/react-native",
+      "title": "React Native Quickstart"
+    },
+    {
+      "path": "quickstart/remix",
+      "title": "Remix Quickstart"
+    },
+    {
+      "path": "quickstart/rust",
+      "title": "Rust Quickstart"
+    },
+    {
+      "path": "quickstart/script-tag",
+      "title": "Script Tag Quickstart"
+    },
+    {
+      "path": "quickstart/svelte",
+      "title": "Svelte Quickstart"
+    },
+    {
+      "path": "quickstart/swift",
+      "title": "iOS Swift Quickstart"
+    },
+    {
+      "path": "quickstart/tanstack-start",
+      "title": "TanStack Start Quickstart"
+    },
+    {
+      "path": "quickstart/vue",
+      "title": "Vue Quickstart"
+    },
+    {
+      "path": "quickstarts",
+      "title": "Quickstarts"
+    },
+    {
+      "path": "realtime",
+      "title": "Realtime"
+    },
+    {
+      "path": "scheduling",
+      "title": "Scheduling"
+    },
+    {
+      "path": "scheduling/cron-jobs",
+      "title": "Cron Jobs"
+    },
+    {
+      "path": "scheduling/scheduled-functions",
+      "title": "Scheduled Functions"
+    },
+    {
+      "path": "search",
+      "title": "AI &amp; Search"
+    },
+    {
+      "path": "search/text-search",
+      "title": "Full Text Search"
+    },
+    {
+      "path": "search/vector-search",
+      "title": "Vector Search"
+    },
+    {
+      "path": "self-hosting",
+      "title": "Self Hosting"
+    },
+    {
+      "path": "streaming-export-api",
+      "title": "Streaming Export"
+    },
+    {
+      "path": "streaming-import-api",
+      "title": "Streaming Import"
+    },
+    {
+      "path": "testing",
+      "title": "Testing"
+    },
+    {
+      "path": "testing/ci",
+      "title": "Continuous Integration"
+    },
+    {
+      "path": "testing/convex-backend",
+      "title": "Testing Local Backend"
+    },
+    {
+      "path": "testing/convex-test",
+      "title": "convex-test"
+    },
+    {
+      "path": "tutorial",
+      "title": "Convex Tutorial: A Chat App"
+    },
+    {
+      "path": "tutorial/actions",
+      "title": "Convex Tutorial: Calling External Services"
+    },
+    {
+      "path": "tutorial/scale",
+      "title": "Convex Tutorial: Scaling Your App"
+    },
+    {
+      "path": "understanding",
+      "title": "Convex Overview"
+    },
+    {
+      "path": "understanding/best-practices",
+      "title": "Best Practices"
+    },
+    {
+      "path": "understanding/best-practices/other-recommendations",
+      "title": "Other Recommendations"
+    },
+    {
+      "path": "understanding/best-practices/typescript",
+      "title": "TypeScript"
+    },
+    {
+      "path": "understanding/workflow",
+      "title": "Dev workflow"
+    },
+    {
+      "path": "understanding/zen",
+      "title": "The Zen of Convex"
+    }
+  ]
+}
